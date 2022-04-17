@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".create">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/name_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="154dp"
+            tools:layout_editor_absoluteY="58dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l1"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="139dp" />
+
+        <EditText
+            android:id="@+id/address_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine|textPostalAddress"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l2"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Car-Model"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="139dp" />
+
+        <EditText
+            android:id="@+id/cmodel_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textShortMessage|numberSigned|textNoSuggestions"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l2"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehicle-Code"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="139dp" />
+
+        <EditText
+            android:id="@+id/vcode_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textShortMessage"
+            tools:layout_editor_absoluteX="152dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l7"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l2"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email-id"
+            tools:layout_editor_absoluteX="62dp"
+            tools:layout_editor_absoluteY="224dp" />
+
+        <EditText
+            android:id="@+id/email_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textWebEmailAddress"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="211dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l3"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="308dp" />
+
+        <EditText
+            android:id="@+id/contact_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberSigned|number"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="304dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/l5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/l4"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="308dp" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/l4">
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IN" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OUT" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/create_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView18"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Create user" />
+
+</LinearLayout>
+
+</RelativeLayout>
+
+
